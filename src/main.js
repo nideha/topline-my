@@ -5,6 +5,10 @@ import store from './store'
 // 引入vant ui组件库
 import Vant from 'vant'
 import 'vant/lib/index.css'
+import './styles/index.less'
+import VeeValidate from 'vee-validate'
+
+Vue.use(VeeValidate)
 
 Vue.use(Vant)
 
